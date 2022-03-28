@@ -1,13 +1,16 @@
 # User authentication
 
-1. User provides authentication credentials
-2. Credentials checked against database
-3. Authorized user is logged in
-4. Initial menu presented
-    a. Open inspection checklist
-    b. Inspection history
-    c. Notifications
-    [d] Inspection editor
-    [e] User editor
-    f. User information
-    g. Settings
+- User provides authentication credentials
+- Credentials checked against database
+# User types include employee, supervisor
+- Authorized user is logged in
+- Initial menu presented
+    - Open inspection checklist
+    - Inspection history
+    - Notifications
+    # Inspection editor functions depend on user type
+    - Inspection editor
+    # User editor availability depends on user type
+    - User editor
+    - User information
+    - Settings
